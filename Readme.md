@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This repository contains structured **Incident Response(IR) Everything**
+This repository contains structured **Incident Response**
 designed to help security analysts investigate, validate, and respond to
 security alerts using a standardized and practical approach.
 
