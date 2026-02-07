@@ -81,6 +81,6 @@ policies.
 
 ## 👨‍💻 Author
 
-Aditya Yadav\
-- Security Analyst | SC-200| AZ-500 | AZ-900 | CEHv12 | Network+| ISC2 CC | Top 500 HackTheBox | Rust Dev (In Progress)\
-- Linkedin: https://www.linkedin.com/in/ad1-yadav/
+Aditya Yadav<br>
+Security Analyst | SC-200| AZ-500 | AZ-900 | CEHv12 | Network+| ISC2 CC | Top 500 HackTheBox | Rust Dev (In Progress)<br>
+Linkedin: https://www.linkedin.com/in/ad1-yadav/
