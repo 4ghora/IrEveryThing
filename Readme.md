@@ -10,7 +10,7 @@ security alerts using a standardized and practical approach.
 
 ------------------------------------------------------------------------
 
-## 🎯 Purpose
+## Purpose
 
 -   Provide a consistent alert investigation methodology\
 -   Help analysts understand attacker behavior\
@@ -19,7 +19,7 @@ security alerts using a standardized and practical approach.
 
 ------------------------------------------------------------------------
 
-## 📂 Playbook Format
+## Playbook Format
 
 Each alert follows this structure:
 
@@ -54,7 +54,7 @@ Each alert follows this structure:
 
 ------------------------------------------------------------------------
 
-## 🧠 Target Audience
+## Target Audience
 
 -   SOC Analysts\
 -   Incident Responders\
@@ -63,7 +63,7 @@ Each alert follows this structure:
 
 ------------------------------------------------------------------------
 
-## 🛠 Coverage Areas
+## Coverage Areas
 
 -   Endpoint Security\
 -   SIEM & Log Analysis\
@@ -73,7 +73,7 @@ Each alert follows this structure:
 
 ------------------------------------------------------------------------
 
-## ⚠ Disclaimer
+## Disclaimer!
 
 This repository is for **educational and defensive security purposes
 only**. Investigation and response actions should follow organizational
@@ -81,7 +81,7 @@ policies.
 
 ------------------------------------------------------------------------
 
-## 👨‍💻 Author
+## Author
 
 Aditya Yadav<br>
 Security Analyst | SC-200| AZ-500 | AZ-900 | CEHv12 | Network+| ISC2 CC | Rust Dev (In Progress)<br>
