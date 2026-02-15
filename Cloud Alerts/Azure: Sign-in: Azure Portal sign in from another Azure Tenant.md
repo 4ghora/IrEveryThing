@@ -26,7 +26,7 @@
 - Attackers often attempt to use valid Azure credentials from compromised accounts to escalate privileges in other tenants (`T1190`, `T1078` – Valid Accounts, MITRE ATT&CK).
 - Alerts are rare; therefore, each event could represent a **potential high-risk incident**, especially for privileged users.
 
-### 2.4 Define Severity
+### 2.4 Severity
 
 - **Low:** Trusted B2B collaboration user or service principal; no sensitive resources accessed.
 - **Medium:** Regular user logging in from an external tenant unexpectedly; sensitive resources minimally affected.
@@ -38,8 +38,6 @@
 ---
 
 ## 3. Knowledge Required Before Investigation
-
-### 3.1 Explain concepts analyst must understand first
 
 1. **Azure Tenants & HomeTenantId vs ResourceTenantId:**
     - `HomeTenantId` = tenant where the user account was created.
@@ -111,7 +109,7 @@
 4. Are there multiple logins from different tenants/IPs?
 5. Any follow-on suspicious activities (RBAC changes, service principal creation, resource deployments)?
 
-### 6.2 Answer the questions
+### 6.2 Answers
 
 - Correlate `SigninLogs` with **conditional access policies**, **B2B invitations**, and **Privileged Identity Management logs**.
 - Check **GeoIP** and **VPN logs** to rule out legitimate location.
@@ -181,12 +179,7 @@
 
 - Disable compromised user accounts.
 - Block suspicious IP addresses at Azure AD Conditional Access.
-- Revoke active sessions via Azure AD:
-    
-    ```powershell
-    Revoke-AzureADUserAllRefreshToken -ObjectId <UserId>
-    ```
-    
+- Revoke active sessions via Azure AD    
 
 ### 10.2 Eradication
 
