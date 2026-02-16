@@ -1,11 +1,3 @@
-# Suspicious PowerShell Commandlet Executed
-
-Type: IR Eveything
-Updated: February 16, 2026 9:38 PM
-Created: February 16, 2026 9:17 PM
-
----
-
 ## 1. Alert Name
 
 **Suspicious PowerShell Commandlet Executed**
