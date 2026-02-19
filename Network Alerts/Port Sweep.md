@@ -522,7 +522,7 @@ Lower threshold for high-risk ports (445, 3389).
 
 ---
 
-## 12. Actions an IR Should Never Do (Port Sweep – In Brief)
+## 12. Actions an IR Should Never Do (Port Sweep)
 
 1. **Do NOT block the Source IP immediately**
    Verify whether it is an approved vulnerability scanner, monitoring tool, or IT system before containment.
