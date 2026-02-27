@@ -1,6 +1,6 @@
 ## 1. Alert Name
 
-**AWS Security Hub – Detect EC2 Security Groups Allowing Unrestricted High-Risk Ports**
+**Changes to AWS Security Group ingress and egress settings**
 
 ---
 
